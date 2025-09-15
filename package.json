@@ -4,8 +4,8 @@
   "description": "A Typescript SDK for interacting with Palisade MPC based wallet-as-a-service (WaaS) platform.",
   "main": "index.js",
   "scripts": {
-    "sdk:gen": "openapi-generator-cli generate -c gen.config.json",
-    "sdk:batch": "openapi-generator-cli batch -c openapitools.json"
+    "sdk:gen": "openapi-generator-cli generate -c openapitools.json -o sdk/typescript",
+    "sdk:batch": "openapi-generator-cli batch -c openapitools.json -o sdk/typescript"
   },
   "repository": {
     "type": "git",
