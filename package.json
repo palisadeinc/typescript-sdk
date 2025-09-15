@@ -1,0 +1,25 @@
+{
+  "name": "palisade-ts-sdk",
+  "version": "0.1.0-beta.1",
+  "description": "A Typescript SDK for interacting with Palisade MPC based wallet-as-a-service (WaaS) platform.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/palisadeinc/typescript-sdk.git"
+  },
+  "keywords": [
+    "palisade",
+    "web3",
+    "wallets",
+    "mpc"
+  ],
+  "author": "tkiddle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/palisadeinc/typescript-sdk/issues"
+  },
+  "homepage": "https://github.com/palisadeinc/typescript-sdk#readme"
+}
