@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+
+# Build outputs
+dist/
+build/
+lib/
+out/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# OS / Editor junk
+.DS_Store
+Thumbs.db
+
+# IDE settings
+.vscode/
+.idea/
+
+# Coverage reports
+coverage/
+.nyc_output/
+
+# Lock files (optional - ignore if you don’t want them in repo)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml

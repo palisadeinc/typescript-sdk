@@ -1,10 +1,11 @@
 {
-  "name": "palisade-ts-sdk",
+  "name": "typescript-sdk",
   "version": "0.1.0-beta.1",
   "description": "A Typescript SDK for interacting with Palisade MPC based wallet-as-a-service (WaaS) platform.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sdk:gen": "openapi-generator-cli generate -c gen.config.json",
+    "sdk:batch": "openapi-generator-cli batch -c openapitools.json"
   },
   "repository": {
     "type": "git",
@@ -21,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/palisadeinc/typescript-sdk/issues"
   },
-  "homepage": "https://github.com/palisadeinc/typescript-sdk#readme"
+  "homepage": "https://github.com/palisadeinc/typescript-sdk#readme",
+  "devDependencies": {
+    "@openapitools/openapi-generator-cli": "^2.23.3"
+  }
 }

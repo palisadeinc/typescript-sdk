@@ -1,0 +1,20 @@
+# Ignore common files we want to maintain manually
+README.md
+package.json
+package-lock.json
+tsconfig.json
+.gitignore
+.npmignore
+.eslintrc.js
+.prettierrc*
+
+# Ignore node_modules & build artefacts
+node_modules/
+dist/
+build/
+coverage/
+
+# Ignore system/editor files
+.DS_Store
+.idea/
+.vscode/
