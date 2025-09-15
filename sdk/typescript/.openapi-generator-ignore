@@ -7,6 +7,7 @@ tsconfig.json
 .npmignore
 .eslintrc.js
 .prettierrc*
+git_push.sh
 
 # Ignore node_modules & build artefacts
 node_modules/

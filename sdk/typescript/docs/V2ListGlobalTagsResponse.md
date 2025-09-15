@@ -1,0 +1,22 @@
+# V2ListGlobalTagsResponse
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**walletTags** | [**Array&lt;V2WalletTag&gt;**](V2WalletTag.md) |  | [optional] [default to undefined]
+**vaultTags** | [**Array&lt;V2VaultTag&gt;**](V2VaultTag.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { V2ListGlobalTagsResponse } from '@palisade-inc/typescript-sdk';
+
+const instance: V2ListGlobalTagsResponse = {
+    walletTags,
+    vaultTags,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)

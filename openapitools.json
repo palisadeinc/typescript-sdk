@@ -1,14 +1,7 @@
 {
-  "generatorName": "typescript-axios",
-  "inputSpec": "https://api.development.palisade.co/docs/swagger_spec",
-  "output": "sdk/typescript",
-  "additionalProperties": {
-    "npmName": "@palisade-inc/typescript-sdk",
-    "npmVersion": "0.1.0-beta.1",
-    "withSeparateModelsAndApi": true,
-    "useSingleRequestParameter": true,
-    "apiPackage": "apis",
-    "modelPackage": "models",
-    "supportsES6": true
+  "$schema": "./node_modules/@openapitools/openapi-generator-cli/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.14.0"
   }
 }

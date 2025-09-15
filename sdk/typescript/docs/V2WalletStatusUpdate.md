@@ -1,0 +1,20 @@
+# V2WalletStatusUpdate
+
+
+## Properties
+
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**wallet** | [**Vaultv2Wallet**](Vaultv2Wallet.md) |  | [optional] [default to undefined]
+
+## Example
+
+```typescript
+import { V2WalletStatusUpdate } from '@palisade-inc/typescript-sdk';
+
+const instance: V2WalletStatusUpdate = {
+    wallet,
+};
+```
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
